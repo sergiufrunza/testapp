@@ -1,0 +1,13 @@
+
+# testapp
+для изменения-удаления-создания Продукта нало быть админом
+
+api/test/product/ - список продуктов
+
+api/test/product/<int:pk>/ - Визуализация конкретного продукта
+
+api/test/product/create/ - создание продукта
+
+api/test/product/delete/<int:pk>/ - удаления продукта
+
+api/test/product/update/<int:pk>/ - изменение продукта
